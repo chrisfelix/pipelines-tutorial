@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e -u -o pipefail
-
+ 
 declare -r SCRIPT_DIR=$(cd -P $(dirname $0) && pwd)
 
 declare -r NAMESPACE=${NAMESPACE:-pipelines-tutorial}
